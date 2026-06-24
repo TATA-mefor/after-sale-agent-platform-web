@@ -1,0 +1,48 @@
+export interface TestCase {
+  userId: string
+  orderId: string
+  message: string
+}
+
+export const TEST_CASES: TestCase[] = [
+  { userId: 'U-7002',       orderId: 'O-7002',              message: 'USB-C Charger充电器用了三天就不充电了，退款' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: 'Wireless Headphones耳机左耳没声音，退货退款' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-PAID-NOT-SHIPPED',  message: 'Mechanical Keyboard付款一周了还没发货，催一下' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-EXPIRED-AFTERSALE', message: 'Running Shoes鞋子开胶了想保修' },
+  { userId: 'U-7002',       orderId: 'O-7002',              message: '还没收到，直接退款吧，不退货了' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: 'Wireless Headphones耳机左耳有杂音，申请换货' },
+  { userId: 'U-DEMO-3',     orderId: 'O-SHIRT-001',         message: 'Cotton T-Shirt穿了一次就起球了' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-SPECIAL-GOODS',     message: 'Customized Gift Box收到的礼盒颜色和定制要求不一致' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: '耳机收到了，不喜欢，退掉' },
+  { userId: 'U-DEMO-5',     orderId: 'O-SHIPPED-001',       message: 'Smart Watch发了吗？什么时候到' },
+  { userId: 'U-7001',       orderId: 'O-7001',              message: 'Wireless Headphones收到后发现包装破损，要求退货' },
+  { userId: 'U-DEMO-2',     orderId: 'O-PHONE-001',         message: 'Smartphone X1屏幕不亮了，还在保修期内吧' },
+  { userId: 'U-7002',       orderId: 'O-7002',              message: 'USB-C Charger质量太差了，要求仅退款不退货' },
+  { userId: 'U-DEMO-3',     orderId: 'O-SHIRT-001',         message: 'Cotton T-Shirt买小了，换大一码' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-FOOD-001',          message: 'Imported Snack Box收到都碎了，没法吃，退款' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-PAID-NOT-SHIPPED',  message: '怎么还没发？催发货' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: 'Wireless Headphones声音忽大忽小，不要了退回去' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: 'Wireless Headphones耳机坏了想退款，不退也行换一个' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-PAID-NOT-SHIPPED',  message: 'Mechanical Keyboard售后需要准备哪些材料' },
+  { userId: 'U-7002',       orderId: 'O-7002',              message: '充电器充不进去电，退款' },
+  { userId: 'U-DEMO-7',     orderId: 'O-CLOTHING-WRONG',    message: 'Winter Jacket发错颜色了，换成黑色' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: '？' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-PAID-NOT-SHIPPED',  message: '一直没发货，退款' },
+  { userId: 'U-DEMO-4',     orderId: 'O-FOOD-001',          message: 'Imported Snack Box口味和描述不太一样，不满意' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: 'Wireless Headphones怎么申请售后' },
+  { userId: 'U-DEMO-3',     orderId: 'O-SHIRT-001',         message: 'Cotton T-Shirt尺码太小了穿不了，退货' },
+  { userId: 'U-DEMO-5',     orderId: 'O-SHIPPED-001',       message: 'Smart Watch物流查一下到哪了' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: '😡😡😡' },
+  { userId: 'U-DEMO-3',     orderId: 'O-SHIRT-001',         message: '衣服掉色太严重了，退货退款' },
+  { userId: 'U-7002',       orderId: 'O-7002',              message: '充电器不充电了，退款吧，还有一张优惠券能退吗' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-EXPIRED-AFTERSALE', message: 'Running Shoes跑了一个月底掉了，能保修吗' },
+  { userId: 'U-DEMO-6',     orderId: 'O-VIRTUAL-001',       message: 'Online Course Subscription课程打不开，仅退款' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: 'Wireless Headphones包装破损，换一个新的' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-PAID-NOT-SHIPPED',  message: '改一下地址，还没发货' },
+  { userId: 'U-DEMO-2',     orderId: 'O-PHONE-001',         message: '手机用了半年电池不行了，保修期内修一下' },
+  { userId: 'U-DEMO-3',     orderId: 'O-SHIRT-001',         message: '收到的衣服开线了，换一件' },
+  { userId: 'U-7002',       orderId: 'O-7002',              message: 'USB-C Charger质量不好，退款' },
+  { userId: 'U-DEMO-ORDER', orderId: 'O-PAID-NOT-SHIPPED',  message: '还没发货，退款吧，另外一张已经收到的也不想要了退货' },
+  { userId: 'U-DEMO-4',     orderId: 'O-FOOD-001',          message: '包装食品收到过期了，退款' },
+  { userId: 'U-DEMO-1',     orderId: 'O202605130001',       message: '还行吧' },
+]
